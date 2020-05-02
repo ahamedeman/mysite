@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>Eman Ahamed - Contact</title>
+	<link rel="icon" href=images/Gray.png>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -17,13 +18,13 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/ionicons.min.css">
-    
+    <link rel="stylesheet" href="flex-center.css">
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/socialmedia.css">
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" oncontextmenu="return false">
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" >
 	  
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
@@ -36,6 +37,7 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
 			  <li class="nav-item"><a href=index.html class="nav-link"><span>Home</span></a></li>
+			  <li class="nav-item"><a href=about.html class="nav-link"><span>About Me</span></a></li>
 	          <li class="nav-item"><a href=projects.html class="nav-link"><span>Projects</span></a></li>
 	          <li class="nav-item"><a href=blogs.html class="nav-link"><span>My Blog</span></a></li>
 	          <li class="nav-item"><a href=contact.html class="nav-link"><span>Contact</span></a></li>
@@ -43,17 +45,60 @@
 	      </div>
 	    </div>
 	  </nav>
-	  <div class="one-third js-fullheight order-md-last img" style="background-image:url(images/underconstruction.png);"></div>
-<footer class="ftco-footer ftco-section">
+	  
+	  
+	  <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+          </div>
+        </div>
+		
+        <div class="row no-gutters block-9">
+          <div class="col-md-6 order-md-last d-flex">
+            <form action=contact.php class="bg-dark p-4 p-md-5 contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control" name='name' placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name='email' placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name='subject' placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea name="" id="" cols="30" rows="7" class="form-control" 
+			name='message'	placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+              </div>
+            </form>
+          
+          </div>
+
+          <div class="col-md-6 d-flex">
+          	<div class="img" style="background-image: url(images/contact.png);" height=50px width=50px></div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	
+    <footer class="ftco-footer ftco-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Connect Me</h2>
+              <h2 class="ftco-heading-2">Get Social!</h2>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="https://twitter.com/EmanAhamed2"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.facebook.com/eahamed7"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/_eman_ahamed__/"><span class="icon-instagram"></span></a></li>
+			        	<li class="ftco-animate"><a href="https://github.com/ahamedeman"><span class="icon-github"></span></a></li>
+			        	<li class="ftco-animate"><a href="https://www.behance.net/ahamedeman"><span class="icon-behance"></span></a></li>
               </ul>
             </div>
           </div>
@@ -82,7 +127,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
 
-            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <strong>Eman Ahamed</strong></a></p>
+<h5>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="icon-heart color-danger" style='color: red;'aria-hidden="true"></i> by <strong style='color:#FFA500;'>Eman Ahamed</strong></a></h5>
           </div>
         </div>
       </div>
