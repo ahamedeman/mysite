@@ -1,0 +1,81 @@
+/* ---------------------------------
+2. COMMONS FOR PAGE DESIGN
+--------------------------------- */
+
+.section{ padding: 100px 0 50px; }
+
+.section .heading{ margin-bottom: 60px; }
+
+.section .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
+	margin-bottom: 20px; display: block; background: #FFA804; }
+	
+.margin-t-10{ margin-top: 10px; }
+
+.margin-b-30{ margin-bottom: 30px; }
+.margin-b-50{ margin-bottom: 50px; }
+
+.margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
+
+.font-yellow{ color: #FFA600; }
+
+.font-semi-white{ color: #ddd; }
+
+.font-lite-black{ color: #999; }
+
+/* ---------------------------------
+7. EXPERIENCE SECTION
+--------------------------------- */
+
+.experience-section{  color: #fff; }
+
+.experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
+
+.experience .list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px; 
+	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #fff; }
+
+	
+/* ---------------------------------
+8. EDUCATION SECTION
+--------------------------------- */
+
+.education-wrapper{ position: relative; }
+
+.education-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: -51px;
+	width: 2px; background: #ccc; }
+
+.education-wrapper .education{ position: relative; }
+
+.education-wrapper .education:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px; 
+	height: 16px; border-radius: 10px; z-index: 1;
+	box-shadow: 0 0 0 8px rgba(255,171,0, .4); background: #FFAB00; }
+	
+	
+/* ---------------------------------
+9. COUNTER SECTION
+--------------------------------- */
+
+.counter-section{ position: relative; padding: 100px 0 70px; background-size: cover; z-index: 1; 
+	background-image: url(../../images/slider-2-1920x600.jpg); color: #fff; }
+
+.counter-section:after{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
+	right: 0; background: rgba(0,0,0, .2); }
+
+.counter{ position: relative; }
+	
+.counter .title{ text-align: right; margin-right: 130px; }
+
+.counter .desc{ position: absolute; bottom: 4px; right: 0px; width: 110px; }
+
+
+/* RADIAL PREOGRESS SECTION */
+
+
+.radial-progress{ position: relative; max-width: 200px; margin: 0 auto; }
+
+.radial-progress .progressbar-text{ font-size: 2.2em; font-weight: 500; 
+	padding-bottom: 25px!important; color: #333!important; }
+
+.radial-progress .progressbar-text:after{ content:'%'; }
+
+.radial-progress .progress-title{ position: absolute; top: 50%; left: 50%; width: 100%;
+	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; }
